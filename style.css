@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/assets/RhyoBlueGrainy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 960px){
+    body {
+        background-image: url('/assets/RhyoBlueGrainyVertical.png');
+    }
+}
+
+.nav{
+    position: absolute;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-socials-svg{
+    width: 26px;
+    padding: 2px;
+    margin: 2px;
+    transition: 100ms ease-in-out;
+}
+
+.nav-socials-svg:hover{
+    padding: 4px;
+    transition: 100ms ease-in-out;
+}
+
+.section-a{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.section-a-header{
+    font-family:"caflisch-script-pro";
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 95%;
+}
+
+.section-a-description{
+    font-family:"itc-avant-garde-gothic-pro";
+    font-size: 16px;
+}
